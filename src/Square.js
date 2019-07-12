@@ -1,8 +1,11 @@
 import React from 'react';
+import './Square.css'
 
 const Square = () => {
   return(
-    <button>[]</button>
+    <td className="square">
+      &nbsp;
+    </td>
   )
 }
 

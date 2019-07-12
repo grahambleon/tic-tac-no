@@ -1,0 +1,12 @@
+.board-container{
+  text-align: center;
+}
+
+.board {
+  margin: auto;
+  border-collapse: collapse;
+  width: 40%;
+}
+
+.row {
+}
