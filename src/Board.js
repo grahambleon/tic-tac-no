@@ -4,7 +4,15 @@ import Square from './Square.js'
 const Board = () => {
   return(
     <>
-      <Square />
+      <div className="top-row">
+        <Square/><Square/><Square/>
+      </div>
+      <div className="middle-row">
+        <Square/><Square/><Square/>
+      </div>
+      <div className="bottom-row">
+        <Square/><Square/><Square/>
+      </div>
     </>
   )
 }
