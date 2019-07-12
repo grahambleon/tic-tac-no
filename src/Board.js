@@ -1,19 +1,20 @@
 import React from 'react';
 import Square from './Square.js'
+import './Board.css'
 
 const Board = () => {
   return(
-    <>
-      <div className="top-row">
+    <table className="board">
+      <tr className="row">
         <Square/><Square/><Square/>
-      </div>
-      <div className="middle-row">
+      </tr>
+      <tr className="row">
         <Square/><Square/><Square/>
-      </div>
-      <div className="bottom-row">
+      </tr>
+      <tr className="row">
         <Square/><Square/><Square/>
-      </div>
-    </>
+      </tr>
+    </table>
   )
 }
 
