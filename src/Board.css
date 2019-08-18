@@ -1,12 +1,30 @@
-.board-container{
+.board-container {
   text-align: center;
 }
 
 .board {
   margin: auto;
   border-collapse: collapse;
+  margin-top: 25%;
   width: 40%;
 }
 
-.row {
+.top-row > td:first-child,
+.middle-row > td:first-child,
+.bottom-row > td:first-child {
+  border-left: none;
+}
+
+.top-row > td:last-child,
+.middle-row > td:last-child,
+.bottom-row > td:last-child {
+  border-right: none;
+}
+
+.top-row > td {
+  border-top: none;
+}
+
+.bottom-row > td {
+  border-bottom: none;
 }
